@@ -6,6 +6,7 @@ echo ███████╗ ╚████╔╝ ██║  ██║██�
 echo ╚══════╝  ╚═══╝  ╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝  
 echo.
 echo EVASIV Cleaner; Click any key to start cleaning
+pause >nul
 
 vssadmin delete shadows /all /Quiet
 sc stop cpuz150

@@ -1,3 +1,12 @@
+echo ███████╗██╗   ██╗ █████╗ ███████╗██╗██╗   ██╗
+echo ██╔════╝██║   ██║██╔══██╗██╔════╝██║██║   ██║
+echo █████╗  ██║   ██║███████║███████╗██║██║   ██║
+echo ██╔══╝  ╚██╗ ██╔╝██╔══██║╚════██║██║╚██╗ ██╔╝
+echo ███████╗ ╚████╔╝ ██║  ██║███████║██║ ╚████╔╝ 
+echo ╚══════╝  ╚═══╝  ╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝  
+echo.
+echo EVASIV Cleaner; Click any key to start cleaning
+
 vssadmin delete shadows /all /Quiet
 sc stop cpuz150
 sc stop vgt
